@@ -13,7 +13,7 @@ def correo():
             print(" Su correo es válido")
             break
         else:
-            print(" Su correo no es válido")
+            print(" Correo no válido")
             True
     
        
