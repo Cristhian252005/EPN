@@ -1,5 +1,5 @@
 
-void loop() {
+void loop() { hola como estas
     Serial.println("Bienvenido al módulo de dinámica, en el cual podrás realizar algunos ejercicios. By C.C");
     delay(100);
     Serial.println("Escoge el módelo del ejercio");
@@ -9,4 +9,4 @@ void loop() {
     Serial.println("2 Plano inclinado con polea en movimiento");
     while (!Serial.available());
     char tipo = Serial.read();
-}
+    
