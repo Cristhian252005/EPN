@@ -243,26 +243,6 @@ void loop() {
       Serial.println("Fuerzas en x");
       Serial.print("Peso x:-");
       Serial.print(pesox);
-        delay(500);
-      Serial.print("i N");
-      Serial.println();
-      delay(1000);
-      Serial.print("Tension:+");
-      Serial.print(tension);
-        delay(500);
-      Serial.print("i N");
-      Serial.println();
-      delay(1000);
-      Serial.print("Fuerza de rozamiento cinético:-");
-      Serial.print(friccionc);
-      delay(500);
-      Serial.print("i N");
-      Serial.println();
-      delay(1000);
-      Serial.println("Aceleracion del sistema:");
-      Serial.print(a2);
-      Serial.print("i m/s^2");
-      }
     }
     delay(5000);
     }
