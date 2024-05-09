@@ -29,3 +29,19 @@ int main() {
     
     return 0;
 }
+///#include <iostream> 
+    float num_1, num_2;
+    using namespace std;
+int main() {
+    cout<<"Bienvenido a una calculadora de variables"<<endl;
+    cout<<"Ingrese el primer nùmero"<<endl;
+    cin>>num_1;
+    cout<<"Ingrese el segundo nùmero"<<endl;
+    cin>>num_2;
+    cout<<"El resultado de:"<<num_1<<" + "<<num_2<<"\t=\t"<<num_1+num_2<<endl;
+    cout<<"El resultado de:"<<num_1<<" - "<<num_2<<"\t=\t"<<num_1-num_2<<endl;
+    cout<<"El resultado de:"<<num_1<<" * "<<num_2<<"\t=\t"<<num_1*num_2<<endl;
+    cout<<"El resultado de:"<<num_1<<" / "<<num_2<<"\t=\t"<<num_1/num_2<<endl;
+    cout<<"El resultado de:"<<num_1<<"  "<<num_2<<"\t=\t"<<num_1/num_2<<endl;
+    return 0;
+}
