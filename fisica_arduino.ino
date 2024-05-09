@@ -3,7 +3,7 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop() {
+void loop() { hola como estas
     Serial.println("Bienvenido al módulo de dinámica, en el cual podrás realizar algunos ejercicios. By C.C");
     delay(100);
     Serial.println("Escoge el módelo del ejercio");
