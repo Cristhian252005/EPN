@@ -1,0 +1,54 @@
+//-> Empienza con librerias
+#include <iostream> //->Libreria de entrada y salida
+#include <string>
+                    // Stream input output
+//-> espacio para crear y declarar variables
+//-> tipo de variable varaible y valor
+// using namespace es el espacio de variables para ahorrar lineas
+//int= funcion que empienza o f principal
+/*  cout<< "\nHola"; // canal de salida \n salto de linea va al principio, <<endl determina el fin de una linea lo que permite empezar desde la siguiente  \t es una tabulacion \a es un sonido solo funciona en cuadro de texto
+    cout<< "\nHola";
+    cout<< "\n \t\tHola"<<endl;
+    cout<< "Hola\a"<<endl;*/
+    float num_1;
+    float num_2;
+    float suma;
+ using namespace std;
+int main() {
+    cout<<"Bienvenido a una calculadora de variables"<<endl;
+    cout<<"Ingrese el primer numero"<<endl;
+    cin>>num_1;
+    cout<<"Ingrese el segundo numero"<<endl;
+    cin>>num_2;
+    cout<<"Su resultado de:";
+    cout<<num_1;
+    cout<<" + ";
+    cout<<num_2;
+    suma = num_1+num_2;
+    cout<<"\t=\t";
+    cout<<suma<<endl;
+    cout<<"Su resultado de:";
+    cout<<num_1;
+    cout<<" - ";
+    cout<<num_2;
+    suma = num_1+num_2;
+    cout<<"\t=\t";
+    cout<<num_1-num_2<<endl;
+    cout<<"Su resultado de:";
+    cout<<num_1;
+    cout<<" * ";
+    cout<<num_2;
+    suma = num_1+num_2;
+    cout<<"\t=\t";
+    cout<<num_1*num_2<<endl;
+    cout<<"Su resultado de:";
+    cout<<num_1;
+    cout<<" / ";
+    cout<<num_2;
+    suma = num_1+num_2;
+    cout<<"\t=\t";
+    cout<<num_1/num_2<<endl;
+    
+    
+    return 0;
+}
