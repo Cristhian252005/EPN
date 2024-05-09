@@ -1,0 +1,29 @@
+//librerias 
+#include <iostream>//flujo de entrada salida 
+                   //stream input output
+//espacio para declaración de variables
+//cinco en nuestra clase se presenta con 6
+using namespace std;
+/*
+codigo
+que 
+deseo comentar
+*/
+//funcion principal
+
+int main(){
+    //Escribir "Hola bienvenido"
+    //Leer numero
+    cout<<"Hola bienenido\n";
+    int numero_1;
+    int numero_2;
+    cout<<"Ingrese el numero: ";
+    cin>>numero_1;
+    cout<<"Ingrese el numero: ";
+    cin>>numero_2;
+    cout<<"Resultado = "<<numero_1+numero_2;
+    cout<<"Resultado = "<<numero_1*numero_2;
+    cout<<"Resultado = "<<numero_1/numero_2;
+    cout<<"Resultado = "<<numero_1-numero_2;
+    return 0;
+}
