@@ -1,7 +1,3 @@
-String msg1 = "Ingresa la masa que esta sobre el plano (g):";
-String msg4 = "Ingresa la masa colgada:";
-String msg2 = "Ingrese el grado de inclinación del plano:";
-String msg3 = "Ingrese el coeficiente de fricción plano:";
 
 void setup() {
   Serial.begin(9600);
