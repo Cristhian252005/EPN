@@ -1,18 +1,3 @@
-float GRAVEDAD = 10;
-float m;
-float m1;
-float m2;
-float inclinacion;
-float friccion;
-float tension;
-float a;
-float friccionc;
-float peso;
-float normal;
-float masa;
-float masa1;
-float masa2;
-float a2;
 String msg1 = "Ingresa la masa que esta sobre el plano (g):";
 String msg4 = "Ingresa la masa colgada:";
 String msg2 = "Ingrese el grado de inclinación del plano:";
