@@ -20,34 +20,10 @@ int main() {
     cin>>num_1;
     cout<<"Ingrese el segundo numero"<<endl;
     cin>>num_2;
-    cout<<"Su resultado de:";
-    cout<<num_1;
-    cout<<" + ";
-    cout<<num_2;
-    suma = num_1+num_2;
-    cout<<"\t=\t";
-    cout<<suma<<endl;
-    cout<<"Su resultado de:";
-    cout<<num_1;
-    cout<<" - ";
-    cout<<num_2;
-    suma = num_1+num_2;
-    cout<<"\t=\t";
-    cout<<num_1-num_2<<endl;
-    cout<<"Su resultado de:";
-    cout<<num_1;
-    cout<<" * ";
-    cout<<num_2;
-    suma = num_1+num_2;
-    cout<<"\t=\t";
-    cout<<num_1*num_2<<endl;
-    cout<<"Su resultado de:";
-    cout<<num_1;
-    cout<<" / ";
-    cout<<num_2;
-    suma = num_1+num_2;
-    cout<<"\t=\t";
-    cout<<num_1/num_2<<endl;
+    cout<<"Su resultado de:"<<num_1<<" + "<<num_2<<"\t=\t"<<num_1+num_2<<endl;
+    cout<<"Su resultado de:"<<num_1<<" - "<<num_2<<"\t=\t"<<num_1-num_2<<endl;
+    cout<<"Su resultado de:"<<num_1<<" * "<<num_2<<"\t=\t"<<num_1*num_2<<endl;
+    cout<<"Su resultado de:"<<num_1<<" / "<<num_2<<"\t=\t"<<num_1/num_2<<endl;
     
     
     return 0;
