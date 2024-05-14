@@ -63,3 +63,27 @@ int main() {
         cout<<"\tEl número: "<<num<<" es negativo"<<endl;
     }
 }
+//|| es o && es y ! es negación
+#include <iostream> 
+    using namespace std;
+int main() {
+    char caracter;
+    cout<<"Bienvenido al programa que te permite conocer si un caracter es letra, simbolo o numero"<<endl;
+    cout<<"\tIngresa el caracter"<<endl;
+    cin>>caracter;
+    if(caracter>=48 &&caracter<58){
+        cout<<"\tEl caracter: "<<caracter<<" es un numero"<<endl;
+    } else if (caracter>=58 &&caracter<65){
+        cout<<"\tEl número: "<<caracter<<" es simbolo"<<endl;
+    } else if (caracter>=65 &&caracter<91){
+        cout<<"\tEl número: "<<caracter<<" es una letra Mayuscula"<<endl;
+    }
+    else if (caracter>=91 &&caracter<97){
+        cout<<"\tEl número: "<<caracter<<" es una letra simbolo"<<endl;
+    }
+       else if (caracter>=97 &&caracter<123){
+        cout<<"\tEl número: "<<caracter<<" es una letra minuscula"<<endl;
+    } else {
+        cout<<"\tEl número: "<<caracter<<" es algo"<<endl;
+}
+}
