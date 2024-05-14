@@ -46,4 +46,20 @@ int main() {
         cout<<"\tEl número: "<<num<<" es impar"<<endl;
     }
 }
+#include <iostream> 
+#include <cmath> 
+    int num, resultado;
+    using namespace std;
+int main() {
 
+    cout<<"Bienvenido al programa que te permite conocer si un número es + o -"<<endl;
+    cout<<"\tIngresa el número"<<endl;
+    cin>>num;
+    if(num>0){
+        cout<<"\tEl número: "<<num<<" es positivo"<<endl;
+    }else if(num==0){
+        cout<<"\tEl número: "<<num<<" es neutro"<<endl;
+    } else{
+        cout<<"\tEl número: "<<num<<" es negativo"<<endl;
+    }
+}
