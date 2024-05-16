@@ -20,3 +20,20 @@ int main() {
     }
     return 0;
 }
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    cout<<"Numero primo"<<endl;
+    int num1=0;
+    cout<<"Ingrese el numero:";
+    cin>>num1;
+    if(num1%2!=0 & num1%3!=0 & num1%5!=0 & num1%7!=0 ){
+        cout<<"El numero"<<num1<<"es primo";
+    }else{
+        cout<<"El numero"<<num1<<"no es primo";
+    }
+    return 0;
+}
