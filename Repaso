@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout<<"Numero mayor y menor"<<endl;
+    int num1=0;
+    int num2=0;
+    cout<<"Ingrese el numero 1:";
+    cin>>num1;
+    cout<<"Ingrese el numero 2:";
+    cin>>num2;
+    if(num1>num2){
+        cout<<"El numero"<<num1<<"Es mayor";
+    }else{
+        cout<<"El numero"<<num1<<"Es menor";
+    }
+    if(num1==num2){
+        cout<<"El numero"<<num1<<"Es igual";
+    }else{
+        cout<<"El numero"<<num2<<"no es igual";
+    }
+    return 0;
+}
