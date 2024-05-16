@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-
+jjkkjkj
 
     // TIPOS DE VARIBLES
 
     //bool //tipo de variable que devuelve un true y false
     //-nan significa no es un numero / estandar para no un numero
 
-    //enum //est·n relacionado cno vectores, se llama enumerador
+    //enum //est√°n relacionado cno vectores, se llama enumerador
 
     //string // ingresa es una cadena de texto
 
@@ -23,7 +23,7 @@ int main()
     cout<<"                 PROGRAMA DE CALCULADORA  "<<endl;
     cout<<"  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++  "<<endl;
 
-    double num1, num2; //el char sirve para ver que valor tiene en el cÛdigo asci
+    double num1, num2; //el char sirve para ver que valor tiene en el c√≥digo asci
     double resul = 0;
 
     cout<<" Ingrese el primer numero: ",cin>>num1;
@@ -89,7 +89,7 @@ int main()
     cout<<"  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  "<<endl;
 
     int num1;
-    cout<<" Ingrese cualquier n˙mero entero: ",cin>>num1;
+    cout<<" Ingrese cualquier n√∫mero entero: ",cin>>num1;
 
     //PROCESO CON CONDICION IF-ELSE
     if(num1%2 == 0 ){ //% = mod nos sirve para saber el valor del residuo de la division
@@ -98,7 +98,8 @@ int main()
         cout<<" El numero "<<num1<<" es impar "<<endl;
     }
     */
-    //-----------------------------------------------------------------------------
+
+    //-----------------------------------------------------------------------------
     //PROGRAMA PARA DETERMINAR SI UN NUMERO ES MAYOR O NEGATIVO
     //OPERADORES LOGICOS && = y, || = o , ! = no
     /*   Ejemplo valo1 == true &&,||,! valor2 >=30                                         */
@@ -110,7 +111,7 @@ int main()
     cout<<"  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  "<<endl;
 
     int num1;
-    cout<<" Ingrese cualquier n˙mero entero: ",cin>>num1;
+    cout<<" Ingrese cualquier n√∫mero entero: ",cin>>num1;
 
     //PROCESO CON CONDICION IF-ELSE
     if(num1>=0 ){ // = OPERADORES RELACIONALES != Es distinto
