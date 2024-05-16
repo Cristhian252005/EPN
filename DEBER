@@ -1,1 +1,38 @@
+#include <iostream>
+using namespace std;
+float num_1=0, num_2=0;
+int main() {
+ cout<< "Bienvenido al programa que compara nùmeros"<<endl;
+ cout<<"Por favor ingrese el primer nùmero a comparar"<<endl;
+ cin>>num_1;
+ cout<<"Por favor ingrese el segundo nùmero a comparar"<<endl;
+ cin>>num_2;
+ if(num_1>num_2) {
+ cout<<num_1<<" > "<<num_2<<endl;
+ } else if (num_1 < num_2) {
+     cout<<num_1<<" < "<<num_2<<endl;
+ } else {
+    cout<<num_1<<" = "<<num_2<<endl;
+ }
+    return 0;
+}
 
+// primo o no es
+#include <iostream>
+using namespace std;
+int num_1=0;
+int main() {
+ cout<< "Bienvenido al programa que indica si un número es primo o no"<<endl;
+ cout<<"Por favor ingrese el nùmero:";
+ cin>>num_1;
+ if(num_1>=0){
+  if(num_1 != 0 || num_1 !=1 || num_1 !=2||num_1 !=3||num_1 !=5||num_1 !=7||num_1 !=11) {
+ if(num_1 %2 ==0 || num_1 %3==0 || num_1 %5==0 || num_1 %7==0|| num_1 %11==0){ 
+     cout<<"El número: "<<num_1<<" no es primo"<<endl;
+ }else{cout<<"El número: "<<num_1<<" es primo"<<endl;
+ }
+  } else if (num_1 == 1){cout<<"El número: "<<num_1<<" no es primo"<<endl;} else{cout<<"El número: "<<num_1<<" es primo"<<endl;}
+ } else {cout<<"Un número negativo no es primo"<<endl;
+ }
+    return 0;
+}
