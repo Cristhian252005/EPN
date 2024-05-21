@@ -1,0 +1,53 @@
+ char opcion;
+    float num1=0;
+    float num2=0;
+    float resultado=0;
+    cout<<" Opciones:"<<endl;
+    cout<<" a. Suma"<<endl;
+    cout<<" b. Resta"<<endl;
+    cout<<" c. Producto "<<endl;
+    cout<<" d. Division"<<endl;
+    cout<<" Ingrese la opcion: ",cin>>opcion;
+    switch(opcion){
+        case 'a':
+            cout<<" Ingrese el primer numero: ";
+            cin>>num1;
+            cout<<" Ingrrse el segundo numero: ";
+            cin>>num2;
+            resultado=num1+num2;
+            cout<<" Suma es: "<<resultado;
+        break;
+
+        case 'b':
+            cout<<" Ingrese el primer numero: ";
+            cin>>num1;
+            cout<<" Ingrrse el segundo numero: ";
+            cin>>num2;
+            resultado=num1-num2;
+            cout<<" Resta es: "<<resultado;
+            break;
+
+        case 'c':{
+            cout<<" Ingrese el primer numero: ";
+            cin>>num1;
+            cout<<" Ingrrse el segundo numero: ";
+            cin>>num2;
+            resultado=num1*num2;
+            cout<<" El producto es: "<<resultado;
+            break;
+        }
+        case 'd':
+        case 'D':{
+            cout<<" Ingrese el primer numero: ";
+            cin>>num1;
+            cout<<" Ingrrse el segundo numero: ";
+            cin>>num2;
+            resultado= num1/num2;
+            cout<<resultado;
+            break;
+        }
+        default:{
+            cout<<"La opcion ingresada no existe";
+            break;
+        }
+    }
