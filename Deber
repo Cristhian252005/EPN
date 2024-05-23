@@ -1,0 +1,213 @@
+//Cuenta regresiva con for: Escribe un programa que utilice un bucle for
+//para realizar una cuenta regresiva desde 100 hasta 1,
+//imprimiendo cada número en una linea nueva
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 100; i >= 1; --i) {
+        cout << i << endl;
+    }
+    return 0;
+}
+
+//******************************************************
+
+//Validación de entrada con while: Crea un programa que continúe solicitando al usuario 
+//que ingrese un número hasta que introduzca un número dentro del rango de 1 a 10. 
+//Utiliza un bucle while para validar la entrada.
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    do {
+        cout << "Ingrese un número entre 1 y 10: ";
+        cin >> numero;
+    } while(numero < 1 || numero > 10);
+    cout << "Número válido: " << numero << endl;
+    return 0;
+}
+
+//******************************************************
+
+//Menú interactivo con do-while: Desarrolla un programa que muestre un menú de opciones (por ejemplo, 1. Jugar, 2. Ayuda, 3. Salir) 
+//y que use un bucie do-while para seguir mostrando el menú hasta que el usuario elija la opción de salir.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int opcion;
+    do {
+        cout << "1. Jugar\n2. Ayuda\n3. Salir\n";
+        cout << "Seleccione una opción: ";
+        cin >> opcion;
+        // Procesar la opción aquí
+    } while(opcion != 3);
+    return 0;
+}
+
+
+
+//******************************************************
+
+//Suma de números impares con for: Escribe un programa que use un bucle for
+//para sumar todos los números impares del 1 al 100 y luego imprima el resultado.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int suma = 0;
+    for(int i = 1; i <= 100; i += 2) {
+        suma += i;
+    }
+    cout << "La suma de los números impares del 1 al 100 es: " << suma << endl;
+    return 0;
+}
+
+
+
+//******************************************************
+
+//Pedir y validar una contraseña con do-while: Crea un programa que solicite al usuario una contraseña y 
+//repita la solicitud hasta que la entrada coincida con una contraseña predefinida.
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string contrasena = "clave123";
+    string entrada;
+    do {
+        cout << "Ingrese la contraseña: ";
+        cin >> entrada;
+    } while(entrada != contrasena);
+    cout << "Contraseña correcta!" << endl;
+    return 0;
+}
+
+
+
+//******************************************************
+
+//Multiplicación sin usar con while: Diseña un programa que multiplique dos números ingresados
+//por el usuario utilizando un bucle while y sumas repetidas (no usar el operador de multiplicación).
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, resultado = 0;
+    cout << "Ingrese dos números: ";
+    cin >> a >> b;
+    while(b > 0) {
+        resultado += a;
+        --b;
+    }
+    cout << "El resultado de la multiplicación es: " << resultado << endl;
+    return 0;
+}
+
+
+
+
+
+//******************************************************
+//Imprimir patrones con for: Utiliza un bucle for para imprimir un patrón de estrellas
+//(por ejemplo, un triángulo rectángulo de base y altura n, donde n es un número introducido por el usuario).
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Ingrese el tamaño del patrón: ";
+    cin >> n;
+    for(int i = 1; i <= n; ++i) {
+        for(int j = 1; j <= i; ++j) {
+            cout << "*";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+
+
+
+//******************************************************
+//Cálculo de factorial con while: Escribe un programa   
+//calcule el factorial de un número dado usando un
+//while.
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero, factorial = 1;
+    cout << "Ingrese un número: ";
+    cin >> numero;
+    while(numero > 1) {
+        factorial *= numero;
+        --numero;
+    }
+    cout << "El factorial es: " << factorial << endl;
+    return 0;
+}
+
+
+
+//******************************************************
+
+//Reversa de un número con do-while: Desarrolla un programa
+//que tome un número entero positivo y, utilizando un bucle do-while, imprima ese número en orden inverso.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero, reversa = 0;
+    cout << "Ingrese un número entero positivo: ";
+    cin >> numero;
+    do {
+        reversa = (reversa * 10) + (numero % 10);
+        numero /= 10;
+    } while(numero > 0);
+    cout << "El número en orden inverso es: " << reversa << endl;
+    return 0;
+}
+
+
+
+
+
+//******************************************************
+//Cálculo de interés compuesto con for: Escribe un programa que calcule
+//el interés compuesto para una inversión inicial, una tasa de interés y
+//un número de años dados, usando un bucle for. El programa debe mostrar el saldo de la cuenta al final de cada año.
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double capital, tasa, saldo;
+    int anos;
+    cout << "Ingrese el capital inicial, la tasa de interés y el número de años: ";
+    cin >> capital >> tasa >> anos;
+    for(int i = 1; i <= anos; ++i) {
+        saldo = capital * pow((1 + tasa/100), i);
+        cout << "Saldo al final del año " << i << ": " << saldo << endl;
+    }
+    return 0;
+}
