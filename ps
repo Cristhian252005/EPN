@@ -1,0 +1,25 @@
+// Determinar los primeros n primos
+Algoritmo Nprimos
+	Definir  primosMostar, primosmostrados, numero Como ENTERO;
+	Definir esPrimo Como Logico
+	Escribir 'Ingrese la cantidad de numeros primos a mostrar:'
+	Leer primosMostar
+	Escribir '1: 2'
+	primosmostrados=1
+	numero=3
+	Mientras primosmostrados<primosMostar Hacer 
+		esPrimo=Verdadero
+			Para i=3 hasta rc(numero) Con Paso 2 Hacer
+				Si numero mod i=0 Entonces
+					esPrimo=Falso;
+				FinSi
+			FinPara
+			Si esPrimo Entonces
+				primosmostrados=primosmostrados+1
+				Escribir primosmostrados, ":", numero;
+			FinSi
+			numero= numero+2
+		FinMientras
+	
+	
+FinAlgoritmo
