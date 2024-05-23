@@ -1,0 +1,72 @@
+//Calculadora simple de funciones trigonometricas
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int opcion, num_1;
+    float resultado;
+    cout<<"Bienvenido a la calculadora de funciones trigonometricas en radianes"<<endl;
+    do {
+        cout<<"\n1. Seno"<<endl;
+        cout<<"2. Cos"<<endl;
+        cout<<"3. Tan"<<endl;
+        cout<<"4. Arcseno"<<endl;
+        cout<<"5. Arccos"<<endl;
+        cout<<"6. ArtTan"<<endl;
+        cout<<"7. Salir"<<endl;
+        cin>>opcion;
+        switch(opcion){
+            case 1:{
+                cout<<"Ingrese el valor en radianes:";
+                cin>>num_1;
+                resultado = sin(num_1);
+                cout<<"Su resultado:"<<resultado;
+                break;
+            }
+            case 2:{
+                cout<<"Ingrese el valor en radianes:";
+                cin>>num_1;
+                resultado = cos(num_1);
+                cout<<"Su resultado:"<<resultado;
+                break;
+            }
+            case 3:{
+                cout<<"Ingrese el valor en radianes";
+                cin>>num_1;
+                resultado = tan(num_1);
+                cout<<"Su resultado:"<<resultado;
+                break;
+            }
+            case 4:{
+                cout<<"Ingrese el valor en radianes";
+                cin>>num_1;
+                resultado = asin(num_1);
+                cout<<"Su resultado:"<<resultado;
+                break;
+            }
+            case 5:{
+                cout<<"Ingrese el valor en radianes";
+                cin>>num_1;
+                resultado = acos(num_1);
+                cout<<"Su resultado:"<<resultado;
+                break;
+            }
+            case 6:{
+                cout<<"Ingrese el valor en radianes";
+                cin>>num_1;
+                resultado = atan(num_1);
+                cout<<"Su resultado:"<<resultado;
+                break;
+            }
+            case 7:{
+                return 0;
+            }
+            defaut:{
+                cout<<"Ingrese un valor correcto";
+                break;
+            }
+        }
+    }while(opcion!=7);
+    
+    return 0;
+}
