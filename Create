@@ -1,0 +1,17 @@
+//Calcular la suma hasta que alcance 100
+#include <iostream>
+using namespace std;
+int main() {
+    int resultado=100, i, j;
+    cout<<"Ingrese el numero 1: "<<endl;
+    cin>>i;
+    cout<<"Ingrese el numero 1: "<<endl;
+    cin>>j;
+    resultado=i+j;
+    if (resultado >= 100){
+        cout<<"Resultado"<<resultado;
+    }else{
+        cout<<" "<<endl;
+    }
+    return 0;
+}
