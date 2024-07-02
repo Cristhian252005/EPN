@@ -133,7 +133,20 @@ console.log(peliculas[3]);
 peliculas[3]="La bella y la bestiar";
 console.log(peliculas);
 
----------------------------------------------------------------------------------------------------------------
+*********************************************************************************************************************
+
+var numero = 0;
+console.log(numero);
+//imprimir ventanas
+if(numero == 1){
+  alert("Numero: "+ numero);
+}
+
+//ingresar datos 
+
+//var dato = prompt("Ingrese un numero");
+console.log(" El dato ingresado es: "+ dato);
+
 var num1 = promp (" Ingrese el primer numero");
 var num2 = promp(" Ingrese el segundo numero");
 
