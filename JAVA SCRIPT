@@ -1,0 +1,135 @@
+//JAVA SCRIPT
+
+//declaracion de variables
+var numero1= 5;
+var numero2= 32;
+var nombre="Daniel";
+
+
+var letra = "b";
+
+console.log(numero1,nombre,letra)
+
+//imprimir por pantalla 
+console.log(" El resultado es: "+(numero1+numero2));
+
+//otra forma de sumar con funcion
+console.log(" El resultado es: "+(numero1+Number(numero2)));
+
+//se agrega el signo + 
+console.log(" El resultado es: "+(numero1+(+numero2)));
+
+
+
+var estado = true;
+console.log(estado);
+
+// vectores
+var numeros = [1,2,3,4,5];
+console.log(numeros);
+console.log(typeof numero1);
+console.log(typeof numeros);
+console.log(typeof nombre);
+console.log(typeof estado);
+
+console.log("----------------------------------------------------------------------");
+console.log(" DECLARACION DE VARIABLES GLOBALES Y LOCALES")
+
+//var num1 = 6; //variables globales
+//let num1 = 4; //variables locales
+//console.log(num1);
+
+console.log(" Se reemplaza la variable");
+if(true){
+    var num1 = 4;
+    console.log(num1);
+}
+
+console.log(" No se reemplaza la variable");
+
+if(true){
+    let num1 = 2;
+    console.log(num1);
+}
+
+
+console.log("----------------------------------------------------------------------");
+console.log(" FUNCIONES ");
+
+//no declaro las variables si son enteros, decimales
+function suma(num1,num2){
+    return console.log(" Suma es: "+(num1+num2));
+}
+
+suma(4,5);
+
+function calculadora(num1,num2){
+     console.log(" Suma es: "+(num1+num2));
+     console.log(" Resta es: "+(num1-num2));
+     console.log(" Producto es: "+(num1*num2));
+     console.log(" Division es: "+(num1/num2));
+}
+
+calculadora(7,6);
+
+function cuadrado(num1){
+     console.log(" El cuadrado es: "+((num1*num1)));
+}
+
+cuadrado(2);
+
+
+
+console.log("----------------------------------------------------------------------");
+console.log(" CONDICIONALES ");
+var anio = 2021;
+if(anio >= 2023){
+    console.log(" Pandemia superada")
+}else{
+    console.log(" La pandemia nos consume")
+}
+
+console.log(" USO DEL SWITCH")
+//uso del switch
+var edad = 40;
+switch(edad){
+    case 12:{
+        console.log(" Adolescente puberto");
+        break;
+    }
+    case 18:{
+        console.log(" Mayor de edad, preparate!");
+        break;
+    }
+    case 40:{
+        console.log(" Viejo sabroso");
+        break;
+    }
+    default:{
+        console.log(" Su edad no es especificada")
+    }
+}
+
+
+console.log(" USO DEL FOR");
+
+for(var i = 1; i<=10; i++){
+    console.log(i);
+    
+}
+
+alert(" Hola ");
+
+
+console.log("----------------------------------------------------------------------");
+console.log(" ARREGLOS ");
+
+var peliculas=["XMEN","Intensamente","Titanic","Joker"];
+
+console.log(peliculas);
+//especificar una en especifico
+console.log(peliculas[3]);
+//para reemplazar 
+peliculas[3]="La bella y la bestiar";
+console.log(peliculas);
+
