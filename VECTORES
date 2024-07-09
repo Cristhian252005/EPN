@@ -1,3 +1,4 @@
+//programa para realizar la suma de dos vectores
 #include <iostream>
 
 using namespace std;
@@ -17,19 +18,30 @@ int main() {
     }
     
     //publicación de los vectores ingresados
-    cout<<" vector 1: [ ";
+    cout<<"\n vector 1: [ ";
     for(int i =0;i<4;i++) {
         cout<<vector[i]<<" ";
     }
     cout<<"]";
     
     //publicación de los vectores ingresados
-    cout<<" vector 1: [ ";
+    cout<<"\n vector 2: [ ";
     for(int i =0;i<4;i++) {
         cout<<vector2[i]<<" ";
     }
     cout<<"]";
     
+    for(int i =0;i<4;i++) {
+        vectorResultado[i] = vector[i] + vector2[i];
+    }
+    
+    //publicación de los vectores ingresados
+    
+    cout<<"\n vector resultado: [ ";
+    for(int i =0;i<4;i++) {
+        cout<<vectorResultado[i]<<" ";
+    }
+    cout<<"]";
     return 0;
 }
 
