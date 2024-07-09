@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Hello, World!" << endl;
+    int vector[4], vector2[4], vectorResultado[4];
+
+    //solicitar el ingreso de datos para el primer vector
+    for(int i =0;i<4;i++) {
+        cout<<" Ingrese el valor "<<i<<" del vector 1: ", cin>>vector[i];
+    }
+    
+    //solicitar el ingreso de datos para el segundo vector
+    for(int i =0;i<4;i++) {
+        cout<<" Ingrese el valor "<<i<<" del vector 2: ", cin>>vector2[i];
+    }
+    
+    //publicación de los vectores ingresados
+    cout<<" vector 1: [ ";
+    for(int i =0;i<4;i++) {
+        cout<<vector[i]<<" ";
+    }
+    cout<<"]";
+    
+    //publicación de los vectores ingresados
+    cout<<" vector 1: [ ";
+    for(int i =0;i<4;i++) {
+        cout<<vector2[i]<<" ";
+    }
+    cout<<"]";
+    
+    return 0;
+}
+
+
+-------------------------------------------------------------------------------------------------------------------------------
