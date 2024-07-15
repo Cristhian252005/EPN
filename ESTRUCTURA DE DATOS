@@ -1,0 +1,12 @@
+// ESTRUCUTURAS
+/*
+    Un regustro es una agrupaciónn de datos
+  
+    struct Persona{
+    aquí van los atributos que se va agregar
+    string nombre;
+    int edad;
+    string apellido;
+    }
+
+*/
